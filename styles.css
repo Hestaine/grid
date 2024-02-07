@@ -9,7 +9,7 @@ body {
 .container {
   display: grid;
   padding: 10px;
-  grid-template-rows: repeat(auto, 250px);
+  grid-template-rows: repeat(6px, 250px);
   grid-template-columns: auto;
   grid-gap: 10px 10px;
   grid-auto-rows: 200px;
@@ -73,7 +73,7 @@ body {
   grid-column: 1 / 5;
   background-color: #e83835;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container {
     display: block;
   }
@@ -81,4 +81,4 @@ body {
     height: 200px;
     margin-bottom: 10px;
   }
-} */
+}
